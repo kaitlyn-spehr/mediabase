@@ -1,4 +1,4 @@
-package com.example.mediabase.movies;
+package com.example.mediabase.movies.movies;
 
 import org.springframework.stereotype.Component;
 

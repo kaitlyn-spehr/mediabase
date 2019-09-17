@@ -1,11 +1,9 @@
-package com.example.mediabase;
+package com.example.mediabase.movies;
 
-import com.example.mediabase.movies.Movie;
-import com.example.mediabase.movies.MoviesBean;
-import com.example.mediabase.movies.MoviesInitialList;
-import com.example.mediabase.podcasts.Podcast;
-import com.example.mediabase.podcasts.PodcastRepository;
-import com.example.mediabase.podcasts.PodcastsInitialList;
+import com.example.mediabase.movies.movies.MoviesBean;
+import com.example.mediabase.movies.movies.MoviesInitialList;
+import com.example.mediabase.movies.podcasts.PodcastRepository;
+import com.example.mediabase.movies.podcasts.PodcastsInitialList;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 

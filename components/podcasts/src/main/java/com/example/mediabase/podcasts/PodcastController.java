@@ -1,4 +1,4 @@
-package com.example.mediabase.podcasts;
+package com.example.mediabase.movies.podcasts;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

@@ -1,4 +1,4 @@
-package com.example.mediabase.movies; /**
+package com.example.mediabase.movies.movies; /**
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
  * this work for additional information regarding copyright ownership.
@@ -15,8 +15,6 @@ package com.example.mediabase.movies; /**
  * limitations under the License.
  */
 
-import com.example.mediabase.movies.Movie;
-import com.example.mediabase.movies.MoviesBean;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Component;
 

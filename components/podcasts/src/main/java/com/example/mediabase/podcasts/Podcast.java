@@ -1,4 +1,4 @@
-package com.example.mediabase.podcasts;
+package com.example.mediabase.movies.podcasts;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
