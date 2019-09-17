@@ -1,4 +1,4 @@
-package com.example.mediabase.movies.podcasts;
+package com.example.mediabase.podcasts;
 
 import org.springframework.data.repository.CrudRepository;
 

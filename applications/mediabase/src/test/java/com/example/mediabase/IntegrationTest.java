@@ -1,4 +1,4 @@
-package com.example.mediabase.movies;
+package com.example.mediabase;
 
 import org.junit.Test;
 import org.springframework.web.client.RestTemplate;
