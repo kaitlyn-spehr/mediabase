@@ -15,7 +15,7 @@ public class PodcastController {
 
     @GetMapping("/podcasts")
     public String allPodcasts(Map<String, Object> model) {
-        model.put("podcasts", podcastClient.getAll() );
+        model.put("podcasts", podcastClient.getAll());
         return "podcasts";
     }
 

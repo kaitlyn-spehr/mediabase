@@ -9,8 +9,7 @@ import java.util.List;
 
 public class MovieClient {
 
-    private static ParameterizedTypeReference<List<MovieUI>> movieListType = new ParameterizedTypeReference<List<MovieUI>>() {
-    };
+    private static ParameterizedTypeReference<List<MovieUI>> movieListType = new ParameterizedTypeReference<List<MovieUI>>() {};
     private RestOperations restOperations;
     private String moviesURL;
 
@@ -34,7 +33,7 @@ public class MovieClient {
     }
 
     public int count(String field, String key) {
-        String URI = UriComponentsBuilder.fromHttpUrl(moviesURL + "/count")
+        String URI = UriComponentsBuilder.fromUriString(moviesURL + "/count")
                 .queryParam("field", field)
                 .queryParam("key", key)
                 .build().toUriString();
