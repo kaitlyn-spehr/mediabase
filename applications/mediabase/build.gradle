@@ -22,6 +22,8 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-tomcat')
     compile('commons-lang:commons-lang:2.4')
     compile('io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry')
+    compile('io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker')
+
     compile project(":components:ui")
 
     testCompile('org.springframework.boot:spring-boot-starter-test')

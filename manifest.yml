@@ -20,3 +20,4 @@ applications:
       - route: kes-mediabase.apps.pcf.paltraining.perficient.com
     services:
       - service-registry
+      - circuit-breaker
